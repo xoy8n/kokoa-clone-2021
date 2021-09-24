@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find | Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -19,57 +19,59 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">찾아보기</h1>
+      <h1 class="screen-header__title">더 보기</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://avatars.githubusercontent.com/u/87157589?s=64&v=4" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">설소윤</h4>
+            <h6 class="user-component__subtitle">010-5711-1917</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fas fa-qrcode"></i>
-          <span>QR코드</span>
+          <i class="far fa-calendar"></i>
+          <span>캘린더</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-address-book"></i>
-          <span>연락처로 추가</span>
+          <i class="far fa-smile-beam"></i>
+          <span>이모티콘</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fas fa-fingerprint"></i>
-          <span>ID로 추가</span>
+          <i class="fas fa-paint-roller"></i>
+          <span>테마</span>
         </div>
         <div class="icon-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>초대하기</span>
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>카카오페이</span>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">추천 친구</h6>
-        <span>추천 친구가 없습니다.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4>오픈 채팅</h4>
-          <span>오픈채팅 더 보기<i class="fas fa-chevron-right fa-xs"></i> </span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#태연</h5>
-            <h6 class="open-post__hashtags">#태연#소녀시대#소원</h6>
-            <div class="open-post__members">
-              <img src="https://avatars.githubusercontent.com/u/87157589?s=64&v=4" />
-              <span class="open-post__member-count">802 멤버</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">활성화</span>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">추천</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">카카오 스토리</span>
           </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img src="screenshots/ty.jpg" />
-              <div class="open-post__heart-count"><i class="fas fa-heart fa-xs"></i><span>500</span></div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">카카오 스토리</span>
           </div>
         </div>
       </div>

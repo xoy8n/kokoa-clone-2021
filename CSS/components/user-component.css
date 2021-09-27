@@ -80,3 +80,43 @@
 .friends-profile {
   margin-bottom: 10px;
 }
+
+.wallet {
+  background-color: rgb(254, 229, 0);
+  padding: 20px 0;
+}
+
+.wallet-section {
+  padding: 10px var(--horizontal-space);
+  justify-content: space-between;
+}
+
+.wallet-section:first-child {
+  margin-bottom: 30px;
+}
+.wallet-section,
+.wallet-section__left,
+.wallet-section__right {
+  display: flex;
+  align-items: center;
+}
+
+.fa-qrcode,
+.fa-shield-alt,
+.fa-shopping-cart,
+.fa-comment {
+  padding-right: 10px;
+}
+.line {
+  padding-right: 10px;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+.block {
+  display: block;
+  padding-left: 10px;
+}
+
+#main-title {
+  font-size: 25px;
+  margin-right: 10px;
+}

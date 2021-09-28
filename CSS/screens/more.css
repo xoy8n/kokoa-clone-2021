@@ -1,40 +1,38 @@
 .more-screen .icon-row {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .more-suggestions {
-  margin-top: 50px;
+  justify-content: space-between;
+  margin-top: 30px;
   border-top: var(--main-border);
   padding-top: 30px;
 }
 
-.more-suggestions__title {
-  margin-bottom: 30px;
-}
-
 .more-suggestions__icons {
   display: flex;
+  align-items: center;
 }
 
-.more-suggestions__icon {
-  margin-right: 30px;
+.more-suggestions__icon__left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.weather-city span {
+  font-size: 20px;
+}
+.weather-temp span {
+  font-size: 50px;
+}
+.weather-main span {
+  font-size: 20px;
+}
+.more-suggestions__icon__right {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.more-suggestions__icon-image i {
-  font-size: 32px;
-  color: white;
 }

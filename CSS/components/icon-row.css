@@ -19,6 +19,7 @@
 .icon-row__icon:hover {
   cursor: pointer;
   color: #2e363e;
+  transform: translateY(-5px) scale(1.1);
 }
 .icon-row__icon i {
   font-size: 35px;

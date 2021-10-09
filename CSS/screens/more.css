@@ -4,14 +4,15 @@
 
 .more-suggestions {
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px;
   border-top: var(--main-border);
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .more-suggestions__icons {
   display: flex;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .more-suggestions__icon__left {

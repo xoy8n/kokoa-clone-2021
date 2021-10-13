@@ -1,6 +1,6 @@
 .settings__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: var(--main-border);
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -15,4 +15,8 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting-column > button > i {
+  color: var(--font-color);
 }

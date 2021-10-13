@@ -1,5 +1,25 @@
 :root {
   --yellow: #fae100;
+  --background-color: #fff;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --font-color: #2e363e;
+  --icon-color: rgba(0, 0, 0, 0.6);
+  --title-color: rgba(0, 0, 0, 0.5);
+  --subtitle-color: rgba(0, 0, 0, 0.4);
+  --openpost-color: rgba(0, 0, 0, 0.2);
+  --nav-color: #f9f9fa;
+}
+
+.dark-theme {
+  --yellow: #fae100;
+  --background-color: #252525;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(255, 255, 255, 0.2);
+  --font-color: #efefef;
+  --icon-color: rgba(255, 255, 255, 0.6);
+  --title-color: rgba(255, 255, 255, 0.5);
+  --subtitle-color: rgba(255, 255, 255, 0.4);
+  --openpost-color: rgba(255, 255, 255, 0.2);
+  --nav-color: #;
 }

@@ -12,7 +12,7 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--title-color);
 }
 
 @keyframes hideSplashScreen {
@@ -26,7 +26,7 @@
 }
 
 #splash-screen {
-  background-color: white;
+  background-color: var(--background-color);
   position: absolute;
   height: 100vh;
   width: 100vw;

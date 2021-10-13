@@ -13,12 +13,12 @@
   padding: 10px;
   box-sizing: border-box;
   transition: color 0.3s ease-in-out;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--icon-color);
 }
 
 .icon-row__icon:hover {
   cursor: pointer;
-  color: #2e363e;
+  color: var(--font-color);
   transform: translateY(-5px) scale(1.1);
 }
 .icon-row__icon i {

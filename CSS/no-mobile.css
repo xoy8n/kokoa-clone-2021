@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background: url("/screenshots/color-noise.jpg") center no-repeat;
+  background: url("../screenshots/color-noise.jpg") center no-repeat;
   background-size: cover;
   width: 100vw;
   display: flex;

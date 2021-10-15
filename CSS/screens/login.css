@@ -25,19 +25,21 @@
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  background: transparent;
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid var(--openpost-color);
   transition: border-color 0.5s ease-in-out;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--subtitle-color);
 }
 
 #login-form input:focus {
   border-color: var(--yellow);
+  color: var(--font-color);
 }
 
 #login-form input[type="submit"] {

@@ -6,13 +6,13 @@ let darkMode = localStorage.getItem("darkMode");
 const DARK_MODE = "darkMode";
 
 const enableDarkMode = () => {
-  darkModeBtn.innerHTML = `<i class="fas fa-toggle-on"></i>`;
+  darkModeBtn.innerHTML = `<i class="fas fa-toggle-on fa-lg"></i>`;
   document.body.classList.add("dark-theme");
   localStorage.setItem(DARK_MODE, "enabled");
 };
 
 const disableDarkMode = () => {
-  darkModeBtn.innerHTML = `<i class="fas fa-toggle-off"></i>`;
+  darkModeBtn.innerHTML = `<i class="fas fa-toggle-off fa-lg"></i>`;
   document.body.classList.remove("dark-theme");
   localStorage.setItem(DARK_MODE, null);
 };
